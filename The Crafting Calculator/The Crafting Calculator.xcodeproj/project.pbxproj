@@ -21,6 +21,9 @@
 		BCAF92D724D1FB1000D32AB1 /* mainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92D624D1FB1000D32AB1 /* mainMenuViewController.swift */; };
 		BCAF92D924D1FD9C00D32AB1 /* introToCrotchetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92D824D1FD9C00D32AB1 /* introToCrotchetingViewController.swift */; };
 		BCAF92DB24D2009400D32AB1 /* learnTheBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92DA24D2009400D32AB1 /* learnTheBasicsViewController.swift */; };
+		BCAF92DD24D2238400D32AB1 /* mossBeginnerStitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92DC24D2238400D32AB1 /* mossBeginnerStitchViewController.swift */; };
+		BCAF92DF24D225A300D32AB1 /* plainCircleBeginnerStitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92DE24D225A300D32AB1 /* plainCircleBeginnerStitchViewController.swift */; };
+		BCAF92E124D227CB00D32AB1 /* intermediateShellStitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAF92E024D227CB00D32AB1 /* intermediateShellStitchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		BCAF92D624D1FB1000D32AB1 /* mainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenuViewController.swift; sourceTree = "<group>"; };
 		BCAF92D824D1FD9C00D32AB1 /* introToCrotchetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introToCrotchetingViewController.swift; sourceTree = "<group>"; };
 		BCAF92DA24D2009400D32AB1 /* learnTheBasicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnTheBasicsViewController.swift; sourceTree = "<group>"; };
+		BCAF92DC24D2238400D32AB1 /* mossBeginnerStitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mossBeginnerStitchViewController.swift; sourceTree = "<group>"; };
+		BCAF92DE24D225A300D32AB1 /* plainCircleBeginnerStitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plainCircleBeginnerStitchViewController.swift; sourceTree = "<group>"; };
+		BCAF92E024D227CB00D32AB1 /* intermediateShellStitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intermediateShellStitchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				2E6ADE6E24D2121300455BBA /* intermediateProjectsViewController.swift */,
 				2E6ADE7024D2123C00455BBA /* advancedProjectsViewController.swift */,
 				2E36660A24D1D9F000B2D3C4 /* Main.storyboard */,
+				BCAF92E024D227CB00D32AB1 /* intermediateShellStitchViewController.swift */,
+				BCAF92DE24D225A300D32AB1 /* plainCircleBeginnerStitchViewController.swift */,
+				BCAF92DC24D2238400D32AB1 /* mossBeginnerStitchViewController.swift */,
 				2E36661024D1D9F100B2D3C4 /* Assets.xcassets */,
 				2E36661224D1D9F100B2D3C4 /* LaunchScreen.storyboard */,
 				2E36661524D1D9F100B2D3C4 /* Info.plist */,
@@ -163,12 +172,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E36660924D1D9F000B2D3C4 /* ViewController.swift in Sources */,
+				BCAF92E124D227CB00D32AB1 /* intermediateShellStitchViewController.swift in Sources */,
 				2E6ADE7124D2123C00455BBA /* advancedProjectsViewController.swift in Sources */,
+				BCAF92DF24D225A300D32AB1 /* plainCircleBeginnerStitchViewController.swift in Sources */,
 				2E6ADE6D24D211B100455BBA /* beginnerProjectsViewController.swift in Sources */,
 				2E36660524D1D9F000B2D3C4 /* AppDelegate.swift in Sources */,
 				2E36660724D1D9F000B2D3C4 /* SceneDelegate.swift in Sources */,
 				BCAF92DB24D2009400D32AB1 /* learnTheBasicsViewController.swift in Sources */,
 				2E6ADE6F24D2121300455BBA /* intermediateProjectsViewController.swift in Sources */,
+				BCAF92DD24D2238400D32AB1 /* mossBeginnerStitchViewController.swift in Sources */,
 				BCAF92D924D1FD9C00D32AB1 /* introToCrotchetingViewController.swift in Sources */,
 				2E36660F24D1D9F000B2D3C4 /* The_Crafting_Calculator.xcdatamodeld in Sources */,
 				BCAF92D724D1FB1000D32AB1 /* mainMenuViewController.swift in Sources */,

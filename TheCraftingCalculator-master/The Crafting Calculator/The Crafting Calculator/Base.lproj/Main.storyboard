@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="The_Crafting_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crochet1" translatesAutoresizingMaskIntoConstraints="NO" id="P3o-tG-AmV">
+                                <rect key="frame" x="-130.66666666666666" y="-232" width="675.33333333333337" height="1200"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzh-tO-vaH">
+                                <rect key="frame" x="57" y="525" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3w5-3m-31A"/>
+                                    <constraint firstAttribute="width" constant="300" id="Gbg-1p-ofY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="24"/>
+                                <state key="normal" title="Click here to get started!">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8HU-xw-P9r" kind="show" id="LqO-KC-JT9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dag-hI-bWS">
+                                <rect key="frame" x="-43" y="150" width="500" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="500" id="fzo-lK-wYe"/>
+                                    <constraint firstAttribute="height" constant="75" id="r3q-0w-lUw"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Crochet Central">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="48" name="Optima-Italic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="P3o-tG-AmV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2Qy-nF-NBE"/>
+                            <constraint firstItem="P3o-tG-AmV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LKf-TP-Qvk"/>
+                            <constraint firstItem="Dag-hI-bWS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="SYQ-oz-dt3"/>
+                            <constraint firstItem="Dzh-tO-vaH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nK2-mL-xe7"/>
+                            <constraint firstItem="Dag-hI-bWS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qSQ-aO-cpD"/>
+                            <constraint firstItem="Dzh-tO-vaH" firstAttribute="top" secondItem="Dag-hI-bWS" secondAttribute="bottom" constant="300" id="yPf-Ud-XhO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="130"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TLs-F6-qzn">
+            <objects>
+                <viewController id="8HU-xw-P9r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Rx-K1-PvS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crochet2" translatesAutoresizingMaskIntoConstraints="NO" id="60f-4q-rOH">
+                                <rect key="frame" x="-143" y="-116" width="700" height="948"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Hx-1I-3Ao">
+                                <rect key="frame" x="77" y="283" width="260" height="50"/>
+                                <color key="backgroundColor" red="0.50940684290000005" green="0.4321724971" blue="0.7350833873" alpha="0.37665881849999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FkE-nH-1TR"/>
+                                    <constraint firstAttribute="width" constant="260" id="pEe-Kn-0ys"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Find a new pattern!">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCr-dS-1RN">
+                                <rect key="frame" x="77" y="616" width="260" height="50"/>
+                                <color key="backgroundColor" red="0.50940684290000005" green="0.4321724971" blue="0.7350833873" alpha="0.37665881849999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4P1-mC-HWL"/>
+                                    <constraint firstAttribute="width" constant="260" id="psL-4v-0lI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Calculate the cost!">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cupholder" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJv-Lz-B3q">
+                                <rect key="frame" x="82" y="23" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="3bi-uh-Odx"/>
+                                    <constraint firstAttribute="width" constant="250" id="6LI-C9-5k5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calculator" translatesAutoresizingMaskIntoConstraints="NO" id="ZnG-lO-rBO">
+                                <rect key="frame" x="107" y="391" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="8Wz-OA-Dpd"/>
+                                    <constraint firstAttribute="width" constant="200" id="jpe-P5-caZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="60f-4q-rOH" firstAttribute="centerY" secondItem="2Rx-K1-PvS" secondAttribute="centerY" id="9Ij-Dj-R8h"/>
+                            <constraint firstItem="0Hx-1I-3Ao" firstAttribute="centerX" secondItem="2Rx-K1-PvS" secondAttribute="centerX" id="9gl-jR-R8E"/>
+                            <constraint firstItem="fCr-dS-1RN" firstAttribute="centerX" secondItem="2Rx-K1-PvS" secondAttribute="centerX" id="Mar-qY-QKw"/>
+                            <constraint firstItem="ZnG-lO-rBO" firstAttribute="centerX" secondItem="2Rx-K1-PvS" secondAttribute="centerX" id="Qs8-k2-xX3"/>
+                            <constraint firstItem="9cU-Cc-lpB" firstAttribute="bottom" secondItem="fCr-dS-1RN" secondAttribute="bottom" constant="50" id="W36-lg-T3z"/>
+                            <constraint firstItem="rJv-Lz-B3q" firstAttribute="centerX" secondItem="2Rx-K1-PvS" secondAttribute="centerX" id="Wrq-AN-BKU"/>
+                            <constraint firstItem="0Hx-1I-3Ao" firstAttribute="centerY" secondItem="2Rx-K1-PvS" secondAttribute="centerY" constant="-50" id="iwx-6U-0RL"/>
+                            <constraint firstItem="60f-4q-rOH" firstAttribute="centerX" secondItem="2Rx-K1-PvS" secondAttribute="centerX" id="kTt-UU-Udp"/>
+                            <constraint firstItem="0Hx-1I-3Ao" firstAttribute="top" secondItem="rJv-Lz-B3q" secondAttribute="bottom" constant="10" id="neQ-Uw-7zQ"/>
+                            <constraint firstItem="fCr-dS-1RN" firstAttribute="top" secondItem="ZnG-lO-rBO" secondAttribute="bottom" constant="25" id="wgF-7P-L9f"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9cU-Cc-lpB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="81V-Fj-JXM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sTY-gV-qUB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Calculator" width="256" height="256"/>
+        <image name="Crochet1" width="675" height="1200"/>
+        <image name="Crochet2" width="700" height="948"/>
+        <image name="Cupholder" width="3024" height="3630"/>
+    </resources>
+</document>
